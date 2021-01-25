@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double iOSPhotoEditorVersionNumber;
-FOUNDATION_EXPORT const unsigned char iOSPhotoEditorVersionString[];
+FOUNDATION_EXPORT double RateinciOSPhotoEditorVersionNumber;
+FOUNDATION_EXPORT const unsigned char RateinciOSPhotoEditorVersionString[];
 

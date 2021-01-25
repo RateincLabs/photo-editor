@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_iOSPhotoEditor : NSObject
+@interface PodsDummy_RateinciOSPhotoEditor : NSObject
 @end
-@implementation PodsDummy_iOSPhotoEditor
+@implementation PodsDummy_RateinciOSPhotoEditor
 @end

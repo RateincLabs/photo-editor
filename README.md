@@ -1,15 +1,15 @@
 # iOS Photo Editor
 
 ## Features
-- [x] Cropping 
+- [x] Cropping
 - [x] Adding images -Stickers-
 - [x] Adding Text with colors
 - [x] Drawing with colors
-- [x] Scaling and rotating objects 
-- [x] Deleting objects 
-- [x] Saving to photos and Sharing 
-- [x] Cool animations 
-- [x] Uses iOS Taptic Engine feedback 
+- [x] Scaling and rotating objects
+- [x] Deleting objects
+- [x] Saving to photos and Sharing
+- [x] Cool animations
+- [x] Uses iOS Taptic Engine feedback
 
 ## Installation
 
@@ -27,7 +27,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'iOSPhotoEditor'
+    pod 'RateinciOSPhotoEditor'
 end
 ```
 
@@ -49,10 +49,10 @@ let photoEditor = PhotoEditorViewController(nibName:"PhotoEditorViewController",
 //PhotoEditorDelegate
 photoEditor.photoEditorDelegate = self
 
-//The image to be edited 
+//The image to be edited
 photoEditor.image = image
 
-//Stickers that the user will choose from to add on the image         
+//Stickers that the user will choose from to add on the image
 photoEditor.stickers.append(UIImage(named: "sticker" )!)
 
 //Optional: To hide controls - array of enum control
@@ -70,7 +70,7 @@ The `PhotoEditorDelegate` methods.
 func doneEditing(image: UIImage) {
     // the edited image
 }
-    
+
 func canceledEditing() {
     print("Canceled")
 }
@@ -83,7 +83,7 @@ func canceledEditing() {
 [![Demo](Assets/appetize.png)](https://appetize.io/app/jtanmwtzbz1favhvhw5g24n7b0?device=iphone7plus&scale=50&orientation=portrait&osVersion=10.3)
 
 
-# Demo Video 
+# Demo Video
 [![Demo](https://img.youtube.com/vi/9VeIl9i30dI/0.jpg)](https://youtu.be/9VeIl9i30dI)
 
 ## Credits

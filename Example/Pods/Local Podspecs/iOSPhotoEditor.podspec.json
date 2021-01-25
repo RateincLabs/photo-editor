@@ -1,5 +1,5 @@
 {
-  "name": "iOSPhotoEditor",
+  "name": "RateinciOSPhotoEditor",
   "version": "1.0.0",
   "summary": "Photo Editor supports drawing, writing text and adding stickers and emojis",
   "description": "Photo Editor supports drawing, writing text and adding stickers and emojis\nwith the ability to scale and rotate objects",
@@ -19,8 +19,8 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "iOSPhotoEditor/**/*.{swift}",
+  "source_files": "RateinciOSPhotoEditor/**/*.{swift}",
   "exclude_files": "",
-  "resources": "iOSPhotoEditor/**/*.{png,jpeg,jpg,storyboard,xib,ttf}",
+  "resources": "RateinciOSPhotoEditor/**/*.{png,jpeg,jpg,storyboard,xib,ttf}",
   "swift_version": "5.0"
 }

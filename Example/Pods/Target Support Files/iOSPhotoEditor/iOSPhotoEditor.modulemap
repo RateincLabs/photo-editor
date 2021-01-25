@@ -1,5 +1,5 @@
-framework module iOSPhotoEditor {
-  umbrella header "iOSPhotoEditor-umbrella.h"
+framework module RateinciOSPhotoEditor {
+  umbrella header "RateinciOSPhotoEditor-umbrella.h"
 
   export *
   module * { export * }
